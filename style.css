@@ -144,3 +144,33 @@ form div.incorrect input{
 .createAccount{
   color: blue;
 }
+
+.landing-btn {
+  display: block;
+  width: 100%;
+  padding: 0.85em 4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.landing-btn.signup {
+  background-color: var(--accent-color);
+  color: var(--base-color);
+}
+
+.landing-btn.signup:hover {
+  background-color: var(--text-color);
+}
+
+.landing-btn.login {
+  background-color: var(--text-color);
+  color: var(--base-color);
+}
+
+.landing-btn.login:hover {
+  background-color: var(--accent-color);
+}
